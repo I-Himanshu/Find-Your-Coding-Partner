@@ -99,13 +99,6 @@ var PROFILES_ARRAY = [
     gender: "female",
   },
   {
-    name: "Elli",
-    age: 25,
-    photo:
-      "https://cdn.pixabay.com/photo/2015/09/02/12/25/girl-918417__340.jpg",
-    gender: "female",
-  },
-  {
     name: "Irma",
     age: 26,
     photo:
@@ -139,6 +132,9 @@ var PROFILES_ARRAY = [
     gender: "female"
   }
 ];
+// Shuffle the array
+PROFILES_ARRAY.sort(() => Math.random() - 0.5);
+
 const PROFILES = [];
 const profileContainer = document.querySelector(".profiles");
 var current = 3;
