@@ -137,7 +137,7 @@ var PROFILES_ARRAY = [
     age: 97,
     photo: "https://thumbs.dreamstime.com/b/ghost-girl-17471592.jpg",
     gender: "female"
-
+  }
 ];
 const PROFILES = [];
 const profileContainer = document.querySelector(".profiles");
