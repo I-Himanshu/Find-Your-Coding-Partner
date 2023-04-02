@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- add link to font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="main">
+      <section class="home" id="home">
+        <nav>
+          <h2 class="title">Discover</h2>
+          <div>
+            <i class="fa fa-bell"> </i>
+            <img
+              class="dp"
+              src="https://faces-img.xcdn.link/image-lorem-face-4264.jpg"
+              alt="Profile Pic"
+            />
+          </div>
+        </nav>
+        <div class="searchbar">
+          <i class="fa fa-search"></i>
+          <input type="search" class="search" placeholder="Search" />
+          <i class="fa fa-list"></i>
+        </div>
+        <div class="interests">
+          <div class="top">
+            <h4 class="title">Interests</h4>
+            <span class="view-all">View all</span>
+          </div>
+          <div class="lists">
+            <span>Nature</span>
+            <span>Book</span>
+            <span>coding</span>
+            <span>design</span>
+            <span>design</span>
+            <span class="selected">Information technology</span>
+            <span>music</span>
+            <span>dance</span>
+            <span>Engineering</span>
+          </div>
+        </div>
+        <div class="nearby">
+          <div class="top">
+            <h4 class="title">Near by you</h4>
+            <span class="view-all">View all</span>
+          </div>
+          <p>People with same interest around you</p>
+          <div class="map">
+            <!-- <iframe src="https://www.google.com/maps/embed/v1/place?q=25.6924354,85.70832399999999&key=AIzaSyAk99Lo1XJuQOXAcP7Qu7TCMb6LvDIX0tY" frameborder="0"></iframe> -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d115270.64560386125!2d85.526448!3d25.46474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2842e585973d1%3A0x2cadfba29199d9f2!2sBakhtiyarpur%20College%20Of%20Engineering!5e0!3m2!1sen!2sus!4v1680385741250!5m2!1sen!2sus"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="discover selected" id="discover">
+        <nav>
+          <h2 class="title">Find Your Coding Partner</h2>
+          <div>
+            <i class="fa fa-bell"> </i>
+            <img
+              class="dp"
+              src="https://faces-img.xcdn.link/image-lorem-face-4264.jpg"
+              alt="Profile Pic"
+            />
+          </div>
+        </nav>
+
+        <div class="profiles">
+
+          <!-- <div class="card profile current">
+            <div class="info-box">
+              <h3 class="name">Anushka Sen, 21</h3>
+              <p><i>📌</i> 4km away from you</p>
+            </div>
+          </div>
+          <div class="card profile right">
+            <div class="info-box">
+              <h3 class="name">Jannat Zubair, 21</h3>
+              <p><i>📌</i> 4km away from you</p>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <section id="favourite">This Is Favourite</section>
+      <div class="bottom">
+        <ul>
+          <li class="fa fa-home" data-page="home"></li>
+          <li class="fa fa-compass"></li>
+          <li class="fa fa-plus selected" data-page="discover"></li>
+          <li class="fa fa-heart" data-page="favourite"></li>
+          <li class="fa fa-box"></li>
+        </ul>
+        <span class="indicator"></span>
+      </div>
+    </main>
+  </body>
+</html>
