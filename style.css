@@ -225,7 +225,10 @@ body{
 .bottom{
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 100%;    
+    padding-bottom: 30px;
+
+    
 }
 .bottom ul{
     display: flex;
